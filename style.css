@@ -1,0 +1,21 @@
+div{
+    border: 1px solid black;
+}
+
+.main{
+    display: grid;
+    grid-template-columns:300px  4fr;
+    grid-template-rows: 200px 100vh;
+}
+
+.sidebar{
+    grid-area: 1/1/3/2;
+}
+
+.header{
+    grid-area: 1/2/2/3;
+}
+
+.content{
+    grid-area: 2/2/3/3;
+}
