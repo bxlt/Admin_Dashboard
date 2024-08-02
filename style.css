@@ -17,12 +17,26 @@ div{
     color: antiquewhite;
 }
 
+
+.sideLogo{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(74deg) brightness(104%) contrast(102%);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    top: -5px;
+    left: -5px;
+    position: absolute;
+}
+
 #sideLogo{
     
     width: 60px;
     height: 60px;
     margin: 20px;
+    position: inherit;
 }
+
 
 .sidebar .title{
     display: grid;
@@ -30,11 +44,27 @@ div{
     justify-content: center;
     text-align: center;
     align-items: center;
-    font: 40px bold ;
+    font: 40px bolder;
+    font-weight: 600;
     
 }
 
-.sidebar
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar li{
+    position: relative;
+    margin-top: 20px;
+    font-size:25px;
+    font-weight:700;
+}
+
+li div{
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+}
 
 .header{
     grid-area: 1/2/2/3;
